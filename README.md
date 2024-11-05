@@ -42,17 +42,20 @@ NEXT_PUBLIC_SUBMIT_JOKES_URL=http://localhost:5005
 NEXT_PUBLIC_MODERATE_JOKES_URL=http://localhost:5001
 ```
 
-###Scripts
+### Scripts
+
 Here is a list of useful scripts for development and production:
 
-npm run dev or yarn dev: Start the development server.
-npm run build or yarn build: Build the application for production.
-npm start or yarn start: Start the production server.
-npm run lint or yarn lint: Run ESLint checks.
-npm run format or yarn format: Format the codebase with Prettier.
+- `npm run dev` or `yarn dev`: Start the development server.
+- `npm run build` or `yarn build`: Build the application for production.
+- `npm start` or `yarn start`: Start the production server.
+- `npm run lint` or `yarn lint`: Run ESLint checks.
+- `npm run format` or `yarn format`: Format the codebase with Prettier.
+
 Additional test and setup scripts based on the package configuration:
 
-npm run test or yarn test: Runs formatting, linting, and builds for testing.
-npm run prepare: Prepare Git hooks with Husky.
+- `npm run test` or `yarn test`: Runs formatting, linting, and builds for testing.
+- `npm run prepare`: Prepare Git hooks with Husky.
+
 
 
